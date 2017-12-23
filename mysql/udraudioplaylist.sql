@@ -39,8 +39,8 @@ CREATE TABLE `udraudioplaylist` (
 --
 
 INSERT INTO `udraudioplaylist` (`ID`, `email`, `playlistname`, `created_at`, `musicid`) VALUES
-(7, 'bobbyjasuja@gmail.com', 'bj', '2016-06-04 05:04:13', 3),
-(9, 'bobbyjasuja@gmail.com', 'bj', '2016-06-04 05:15:32', 1);
+(7, 'bobby@gmail.com', 'bj', '2016-06-04 05:04:13', 3),
+(9, 'bobby@gmail.com', 'bj', '2016-06-04 05:15:32', 1);
 
 --
 -- Indexes for dumped tables
