@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#c474b3</color>
+    <color name="colorPrimaryDark">#901275</color>
+    <color name="colorAccent">#842c71</color>
+    <color name="black">#842c71</color>
+
+    <color name="colorPrimary2">#842c71</color>
+    <color name="colorAccent2">#dbc9df</color>
+    <color name="colorPrimaryDark2">#842c71</color>
+    <color name="black2">#842c71</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+
+    <color name="year">#ffffff</color>
+    <color name="title">#ffffff</color>
+</resources>

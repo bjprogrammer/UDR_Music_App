@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText11"
+        android:hint="New Playlist Name"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/listView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="Submit"
+        android:id="@+id/button7"
+        android:layout_marginTop="15dp"
+        android:background="#c474b3"
+        android:layout_below="@+id/editText11"
+        android:layout_alignLeft="@+id/editText11"
+        android:layout_alignStart="@+id/editText11" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="Cancel"
+        android:id="@+id/button8"
+        android:layout_alignTop="@+id/button7"
+        android:layout_alignRight="@+id/editText11"
+        android:layout_alignEnd="@+id/editText11"
+        android:background="#c474b3" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="New Button"
+        android:id="@+id/button9"
+        android:layout_below="@+id/button7"
+        android:layout_alignRight="@+id/button8"
+        android:layout_alignEnd="@+id/button8"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible" />
+
+    <ListView
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:id="@+id/listView"
+        android:layout_marginTop="71dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Add to Playlist"
+        android:id="@+id/textView13"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+</RelativeLayout>

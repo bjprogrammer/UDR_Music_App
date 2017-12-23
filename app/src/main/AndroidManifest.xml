@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bobby.udr">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/udrlogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="2db5cf26331ca875e19172c8f3e5605542981390" />
+
+        <activity
+            android:name=".splashscreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Signin"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme3" />
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            />
+        <activity
+            android:name=".Forgetpassword"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme3" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".playvideo"
+            android:configChanges="orientation" />
+        <activity
+            android:name=".playaudio"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme3" />
+        />
+        <activity
+            android:name=".SearchableActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".playradio"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme3" />
+        />
+        <activity
+            android:name=".Invite"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme3" />
+        <activity android:name=".playnews" />
+        <activity
+            android:name=".Feedback"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme3" />
+        <activity
+            android:name=".Comments"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme3" />
+        <activity
+            android:name=".playlistview"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme3" />
+        <activity
+            android:name=".playlistdisplay"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme3" />
+        <activity android:name=".playselectplaylist"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme3"></activity>
+    </application>
+
+</manifest>

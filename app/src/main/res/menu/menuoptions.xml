@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:icon="@mipmap/ic_playlist_add_black_48dp">
+
+        <menu>
+            <item
+                android:id="@+id/addtoplaylist"
+                android:orderInCategory="1"
+                android:title="Add to Playlist"
+                android:icon="@mipmap/ic_format_list_numbered_black_48dp" />
+
+            <item
+                android:id="@+id/Share"
+                android:orderInCategory="2"
+                android:title="Share"
+                android:icon="@mipmap/ic_share_black_48dp"/>
+
+            <item
+                android:id="@+id/rating"
+                android:orderInCategory="3"
+                android:title="Yout Feedback"
+                android:icon="@mipmap/ic_star_border_black_48dp"/>
+
+            <item
+                android:id="@+id/comments"
+                android:orderInCategory="3"
+                android:title="Comments"
+                android:icon="@mipmap/ic_person_pin_black_48dp"/>
+        </menu>
+    </item>
+</menu>
