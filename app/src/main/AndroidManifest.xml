@@ -16,7 +16,7 @@
             android:value="@string/facebook_app_id" />
         <meta-data
             android:name="io.fabric.ApiKey"
-            android:value="2db5cf26331ca875e19172c8f3e5605542981390" />
+            android:value="2db5cf26331ca8f3e5605542981390" />
 
         <activity
             android:name=".splashscreen"
