@@ -43,8 +43,8 @@ CREATE TABLE `udrreviews` (
 --
 
 INSERT INTO `udrreviews` (`ID`, `name`, `email`, `mobile`, `comments`, `rating`, `url`, `title`, `timestamp`) VALUES
-(2, 'bobby_jasuja', 'bobbyjasuja@gmail.co', '9827063324', 'wow ', 4, 'http://abs.twimg.com/sticky/default_profile_images/default_profile_5_normal.png', 'Gerua', '2016-06-02 04:42:14'),
-(3, 'Bobby Jasuja', 'bobbyjasuja@gmail.co', '9827063324', 'dhh ggh', 5, 'https://graph.facebook.com/1019180211481070/picture?type=normal', 'Gerua', '2016-06-02 06:49:22');
+(2, 'bobby', 'bobby@gmail.co', '982324', 'wow ', 4, 'http://abs.twimg.com/sticky/default_profile_images/default_profile_5_normal.png', 'Gerua', '2016-06-02 04:42:14'),
+(3, 'Bobby', 'bobby@gmail.co', '982324', 'dhh ggh', 5, 'https://graph.facebook.com/10191801070/picture?type=normal', 'Gerua', '2016-06-02 06:49:22');
 
 --
 -- Indexes for dumped tables
