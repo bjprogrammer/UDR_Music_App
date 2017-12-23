@@ -81,8 +81,8 @@ public class Signin extends AppCompatActivity {
     static String encodedImage ;
     Bitmap bitm;
 
-    private static final String TWITTER_KEY = "MGJFShoTe7sbllCXSWqIwaVWe";
-    private static final String TWITTER_SECRET = "S4hk3T9fddo6p1Im8xFtQXDaMa1UhI6UqJbSuCsIXeIvtUzBGA";
+    private static final String TWITTER_KEY = "";
+    private static final String TWITTER_SECRET = "";
 
     EditText e1=null, e2=null,e3=null,e4=null,e5=null,e6=null;
     Button b1,b2,b3;
